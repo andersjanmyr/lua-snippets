@@ -210,22 +210,22 @@
   },
   "assert equals": {
     "prefix": "ae",
-    "body": "assert.Equal(t, ${1:tc.expected}, ${2:actual})\n"
+    "body": "assert.Equal(t, ${1:tc.expected}, ${2:actual})\n",
     "description": "Snippet for assert.Equal"
   },
   "assert contains": {
     "prefix": "ac",
-    "body": "assert.Contains(t, ${1:tc.expected}, ${2:actual})\n"
+    "body": "assert.Contains(t, ${1:tc.expected}, ${2:actual})\n",
     "description": "Snippet for assert.Contains"
   },
   "assert noerror": {
     "prefix": "ano",
-    "body": "assert.NoError(t, ${1:err})\n"
+    "body": "assert.NoError(t, ${1:err})\n",
     "description": "Snippet for assert.NoError"
   },
   "assert nil": {
     "prefix": "ani",
-    "body": "assert.Nil(t, ${1:var})\n"
+    "body": "assert.Nil(t, ${1:var})\n",
     "description": "Snippet for assert.Nil"
   }
 }
