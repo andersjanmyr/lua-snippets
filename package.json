@@ -20,5 +20,6 @@
         "language": "go",
         "path": "./snippets/go.json"
       }
+    ]
   }
 }
