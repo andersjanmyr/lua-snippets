@@ -20,7 +20,7 @@
     "description": "Snippet for main package & function"
   },
   "function declaration": {
-    "prefix": "func",
+    "prefix": "fun",
     "body": "func $1($2) $3 {\n\t$0\n}",
     "description": "Snippet for function declaration"
   },
@@ -81,7 +81,7 @@
   },
   "fmt.Printf": {
     "prefix": "ff",
-    "body": "fmt.Printf(\"$1\n\", ${2:var})",
+    "body": "fmt.Printf(\"$1\\n\", ${2:var})",
     "description": "Snippet for fmt.Printf()"
   },
   "log.Debugf": {
